@@ -22,7 +22,8 @@ def keep_alive():
     t.start()
 
 # --- Telegram Bot Logic ---
-TOKEN = os.environ.get("8490964812:AAEJEenjYyVbiHl2Bgg-kTcgX_qAOmNf0Mk")
+TOKEN = os.environ.get("BOT_TOKEN")
+
 
 # Render Disk သုံးပြီး ဒေတာမပျောက်အောင် သိမ်းမည့်လမ်းကြောင်း
 # အကယ်၍ Local စမ်းရင် books.txt အဖြစ်ပဲ သိမ်းသွားမည်
